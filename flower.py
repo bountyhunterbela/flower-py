@@ -7,9 +7,15 @@ p=turtle.Turtle()
 p.pensize(1)
 p.pencolor("red")
 p.speed(0)
-for i in range(18):
-    p.circle(i*2)
-    p.left(20)
 
-turtle.hideturtle()
-turtle.done()
+
+def main():
+    for i in range(18):
+        p.circle(i * 2)
+        p.left(20)
+
+
+if __name__ == "__main__":
+    main()
+    turtle.hideturtle()
+    turtle.done()
