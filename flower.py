@@ -8,11 +8,15 @@ p.pensize(1)
 p.pencolor("red")
 p.speed(0)
 
+PETAL_COUNT = 18
+SIZE_STEP = 2
+ROTATION_STEP = 20
+
 
 def main():
-    for i in range(18):
-        p.circle(i * 2)
-        p.left(20)
+    for i in range(PETAL_COUNT):
+        p.circle(i * SIZE_STEP)
+        p.left(ROTATION_STEP)
 
 
 if __name__ == "__main__":
