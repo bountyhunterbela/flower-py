@@ -1,3 +1,4 @@
+"""Draw a flower-like mandala pattern using Python's turtle graphics."""
 import turtle
 sc=turtle.Screen()
 sc.bgcolor("black")
